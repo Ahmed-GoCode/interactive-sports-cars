@@ -34,3 +34,21 @@ It lets you explore horsepower, acceleration, top speed, and fuel efficiency wit
    ```bash
    git clone https://github.com/your-username/interactive-sports-cars.git
    cd interactive-sports-cars
+   install.packages(c("ggplot2", "plotly", "dplyr", "htmlwidgets"))
+   source("main.R")
+
+The script will generate interactive plots inside the plots/ folder:
+
+horsepower_interactive.html
+
+mpg_vs_hp_interactive.html
+
+acceleration_interactive.html
+
+👉 Open them in any browser to explore.
+
+👨‍💻 Author | المؤلف
+
+Created by Ahmad | بواسطة أحمد
+📧 Feel free to connect and share feedback!
+
